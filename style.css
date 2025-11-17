@@ -1,0 +1,39 @@
+body {
+    background: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.player {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+#progress, #volume {
+    width: 100%;
+    margin: 10px 0;
+}
+
+button {
+    background: #0d6efd;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background: #0a58ca;
+}
+
+.time {
+    margin-top: 5px;
+    font-size: 14px;
+}
